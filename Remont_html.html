@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/adaptive.css">
     <title>Document</title>
 </head>
 
@@ -15,82 +16,92 @@
 
     <section>
         <picture>
-            <img class="headline-bg" src="/images/Main_bg.jpg" alt="Фон">
+            <img class="headline-bg mt--55" src="/images/Main_bg.jpg" alt="Фон">
         </picture>
         <header>
-            <div class="container flex justify-between">
+            <div class="container flex justify-between ad-color-1 height--55">
                 <div class="flex">
-                    <div class="mt-24 mr-40">
+                    <div class="mt-24 mr-40 mr-0 display-none">
                         <div class="burger-item"></div>
                         <div class="burger-item"></div>
                         <div class="burger-item"></div>
                     </div>
-                    <div class="mt-16">
-                        <img src="/images/logo_black.png" alt="">
+                    <div class="mt-16 mt--13">
+                        <img class="head-logo" src="/images/logo_black.png" alt="">
                     </div>
                 </div>
                 <div class="flex">
-                    <div class="flex mt-24 mr-40">
-                        <img class="img_phone" src="/images/icons/bxs_phone-call.svg" alt="">
+                    <div class="flex mt-24 mr-40 mr-0">
+                        <img class="img_phone mr-0" src="/images/icons/bxs_phone-call.svg" alt="">
                         <div>
-                            <p class="bold">+375(29)642-80-80</p>
+                            <p class="bold fs-15">+375(29)642-80-80</p>
                         </div>
                     </div>
-                    <div class="mt-8">
+                    <div class="mt-8 display-none">
                         <button class="main-btn">
                             <p class="bold text-color-3">Обратный звонок</p>
                         </button>
                     </div>
                 </div>
+                <div class="mt-24 mr-40 mr-0 display-block none">
+                    <div class="burger-item"></div>
+                    <div class="burger-item"></div>
+                    <div class="burger-item"></div>
+                </div>
             </div>
-            <div class="header_border container mt-16">
+
+            <div class="header_border container mt-16 display-none">
 
             </div>
         </header>
-        <div class=" container mb-136 pt-120 m--0-auto">
+        <div class=" container mb-136 pt-120 m--0-auto pt-180">
             <div class="max-w--600 mb-120">
-                <p class="text-color-4 headline-4">Быстро. Качественно. Актуально.</p>
-                <h1>Ремонт квартир под ключ</h1>
+                <p class="text-color-4 headline-4 headline-adaptive--1 mb--9">Быстро. Качественно. Актуально.</p>
+                <h1 class="headline-adaptive--2">Ремонт квартир под ключ</h1>
                 <p class="text-color-2 pt-16 pb-70 max-w--600">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. </p>
                 <div class="br-all br-w--1 p-8 pl-32 flex width-fit br-color--3 br-w--1 br-radius--8">
                     <img src="/images/icons/mail.svg" alt="Почта">
-                    <p class="text-color-2 align-center mt-16 ml-16 mr-32">Введите Ваш e-mail</p>
-                    <button class="main-btn" class="btn-5">
-                        <p class="text-color-3">Получить скидку 5%</p>
+                    <p class="text-color-2 align-center mt-16 ml-16 mr-32 fs-12">Введите Ваш e-mail</p>
+                    <button class="main-btn p-btn--main" class="btn-5">
+                        <p class="text-color-3 fs-12">Получить скидку 5%</p>
                     </button>
                 </div>
             </div>
-            <div class="br-all br-w--4 br-color--2 pb-24 pt-32 pr-32 pl-40 flex wrap br-radius--24 m--0-auto width-fit">
+            <div
+                class="br-all br-w--4 br-color--2 pb-24 pt-32 pr-32 pl-40 flex wrap br-radius--24 m--0-auto width-fit pl--10 pr--10">
                 <div class="mr-56 max-w--400">
-                    <p class="headline-1 text-color-4 mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <p class="text-color-2 text-md mb-72">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    <p class="headline-1 text-color-4 mb-16 fs-26 ml--25">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit</p>
+                    <p class="text-color-2 text-md mb-72 mb-0 fs-15 ml--25">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed
                         do
                         eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet</p>
-                    
+
                 </div>
                 <div class="max-w--400">
                     <div class="flex">
-                        <p class="headline-3 text-color-4 mr-16 ml-80">17</p>
-                        <div class="mb-56">
-                            <p class="text-color-1 text-md strong mt-24 mb-8">лет на рынке</p>
-                            <p class="text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="headline-3 text-color-4 mr-16 ml-80 fs-60 ml--84">17</p>
+                        <div class="mb-56 mb-0">
+                            <p class="text-color-1 text-md strong mt-24 mb-8 fs-15">лет на рынке</p>
+                            <p class="text-color-1 fs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                     <div class="flex">
-                        <p class="headline-3 text-color-4 ml-104">8</p>
-                        <div class="mb-56 ml-16">
-                            <p class="text-color-1 strong mt-24 mb-8">бригад</p>
-                            <p class="text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="headline-3 text-color-4 ml-104 ml--104 fs-60">8</p>
+                        <div class="mb-56 ml-16 mb-0">
+                            <p class="text-color-1 strong mt-24 mb-8 fs-15">бригад</p>
+                            <p class="text-color-1 fs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                     <div class="flex">
-                        <p class="headline-3 text-color-4 mr-24">576</p9>
+                        <p class="headline-3 text-color-4 mr-24 fs-60 ml--25">576</p9>
                             <div>
-                                <p class="text-color-1 strong mt-24 mb-8">выполненных работ</p>
-                                <p class="text-color-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p class="text-color-1 strong mt-24 mb-8 fs-15">выполненных работ</p>
+                                <p class="text-color-1 fs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
                             </div>
                     </div>
                 </div>
@@ -120,44 +131,45 @@
             <div class="main-block">
                 <div class="">
                     <h2 class="mb-16">Наши услуги</h2>
-                    <p class="text-md text-color-2 mb-48">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    <p class="text-md text-color-2 mb-48 max-w--800">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed
                         do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. </p>
                 </div>
-                <div class="flex wrap gap mb-88 block">
-                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4">
-                        <img class="mb-16" src="/images/icons/closet_icon.svg" alt="Тумбочка">
+                <div class="flex wrap gap mb-88 block gap--8">
+                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4 max-w--180 p--29">
+                        <img class="mb-16 max-w--40" src="/images/icons/closet_icon.svg" alt="Тумбочка">
                         <p class="mb-24 text-color-1 strong">Раздвижные двери</p>
                         <p class="mb-24 text-color-4 strong">От 200 р.</p>
                         <button class="main-btn">
                             <p class="text-color-3">Подробнее</p>
                         </button>
                     </div>
-                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4">
-                        <img class="mb-16" src="/images/icons/closet_icon.svg" alt="Тумбочка">
+                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4 max-w--180 p--29">
+                        <img class="mb-16 max-w--40" src="/images/icons/closet_icon.svg" alt="Тумбочка">
                         <p class="mb-24 text-color-1 strong">Отделка балконов</p>
                         <p class="mb-24 text-color-4 strong">От 200 р.</p>
                         <button class="main-btn">
                             <p class="text-color-3">Подробнее</p>
                         </button>
                     </div>
-                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4">
-                        <img class="mb-8" src="/images/icons/closet_icon.svg" alt="Тумбочка">
+                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4 max-w--180 p--29">
+                        <img class="mb-8 max-w--40" src="/images/icons/closet_icon.svg" alt="Тумбочка">
                         <p class="mb-16 text-color-1 strong">Фасадочное остекление</p>
                         <p class="mb-24 text-color-4 strong">От 200 р.</p>
                         <button class="main-btn">
                             <p class="text-color-3">Подробнее</p>
                         </button>
                     </div>
-                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4">
-                        <img class="mb-16" src="/images/icons/closet_icon.svg" alt="Тумбочка">
+                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4 max-w--180 p--29">
+                        <img class="mb-16 max-w--40" src="/images/icons/closet_icon.svg" alt="Тумбочка">
                         <p class="mb-24 text-color-1 strong">Окна</p>
                         <p class="mb-24 text-color-4 strong">От 200 р.</p>
                         <button class="main-btn">
                             <p class="text-color-3">Подробнее</p>
                         </button>
                     </div>
-                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4">
+                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4 display-none">
                         <img class="mb-16" src="/images/icons/closet_icon.svg" alt="Тумбочка">
                         <p class="mb-24 text-color-1 strong">Мебель</p>
                         <p class="mb-24 text-color-4 strong">От 200 р.</p>
@@ -165,7 +177,7 @@
                             <p class="text-color-3">Подробнее</p>
                         </button>
                     </div>
-                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4">
+                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4 display-none">
                         <img class="mb-16" src="/images/icons/closet_icon.svg" alt="Тумбочка">
                         <p class="mb-24 text-color-1 strong">Телицы из алюминия</p>
                         <p class="mb-24 text-color-4 strong">От 200 р.</p>
@@ -173,7 +185,7 @@
                             <p class="text-color-3">Подробнее</p>
                         </button>
                     </div>
-                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4">
+                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4 display-none">
                         <img class="mb-16" src="/images/icons/closet_icon.svg" alt="Тумбочка">
                         <p class="mb-24 text-color-1 strong">Остекление</p>
                         <p class="mb-24 text-color-4 strong">От 200 р.</p>
@@ -181,7 +193,7 @@
                             <p class="text-color-3">Подробнее</p>
                         </button>
                     </div>
-                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4">
+                    <div class="max-w--300 width-full p-56 bg-color-2 br-radius--24 block-type-4 display-none">
                         <img class="mb-16" src="/images/icons/closet_icon.svg" alt="Тумбочка">
                         <p class="mb-24 text-color-1 strong">Тамбур</p>
                         <p class="mb-24 text-color-4 strong">От 200 р.</p>
@@ -190,15 +202,16 @@
                         </button>
                     </div>
                 </div>
-                <div class="bg-color-4 flex pt-24 pb-40 pl-64 pr-88 br-radius--24 justify-between mb-136 box-shadow-1">
+                <div
+                    class="bg-color-4 flex pt-24 pb-40 pl-64 pr-88 br-radius--24 justify-between mb-136 box-shadow-1 flex-wrap pr--9 pl--25 pt--30">
                     <div class="max-w--800">
-                        <h2 class="text-color-3">Lorem ipsum dolor sit amet</h2>
+                        <h2 class="text-color-3 fs-26">Lorem ipsum dolor sit amet</h2>
                         <p class="text-color-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut
                             labore
                             et dolore magna aliqua. Lorem ipsum dolor sit amet</p>
                     </div>
-                    <button class="main-btn m--auto-0">
+                    <button class="main-btn m--auto-0 mt--15">
                         <p class="text-color-3">Рассчитать стоимость</p>
                     </button>
                 </div>
@@ -207,18 +220,19 @@
     </section>
     <section class="bg-color-2">
         <div class="container">
-            <div class="pt-88 ml-80">
-                <h2>За время работы мы получили сотни отзывов</h2>
-                <p class="text-color-2 mt-16 max-w--800">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            <div class="pt-88 ml-80 ml-0 ">
+                <h2 class="fs-26">За время работы мы получили сотни отзывов</h2>
+                <p class="text-color-2 mt-16 max-w--800">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod
                     tempor incididunt ut
                     labore
                     et dolore magna aliqua. </p>
             </div>
             <div class="flex">
                 <div class="mt-136 mr-56">
-                   <a href=""><img src="/images/icons/white-vrctor-reverse.svg" alt=""></a>
+                    <a href=""><img src="/images/icons/white-vrctor-reverse.svg" alt=""></a>
                 </div>
-                <div class="mt-48">
+                <div class="mt-48 display-none">
                     <div class="p-32 bg-color-1 br-radius--24 mb-24 mr-64">
                         <p class="text-color-4 strong text-md mb-8">Я осталась давольна!</p>
                         <p class="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -247,7 +261,7 @@
                         <p class="text-color-6">3 года, 6 месяцев назад</p>
                     </div>
                 </div>
-                <div class="mt-48">
+                <div class="mt-48 display-none">
                     <div class="p-32 bg-color-1 br-radius--24 mb-24 mr-64">
                         <p class="text-color-4 strong text-md mb-8">Я осталась давольна!</p>
                         <p class="mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -265,7 +279,7 @@
                     <a href=""><img src="/images/icons/white-vector.svg" alt=""></a>
                 </div>
             </div>
-            <div class="flex justify-center pb-88">
+            <div class="flex justify-center pb-88 mt--24">
                 <div class="carousel mr-24"></div>
                 <div class="carousel mr-24"></div>
                 <div class="carousel"></div>
@@ -307,7 +321,7 @@
             <div class="flex">
 
                 <div class="work-2">
-                    <h2 class="mt-136 mb-40">Как мы работаем</h2>
+                    <h2 class="mt-136 mb-40 fs-26 mb-24">Как мы работаем</h2>
                     <div class="flex">
                         <div class="green-line-number">
                             <p>01</p>
@@ -367,12 +381,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="ml-136 relative mt-136">
+                <div class="ml-136 relative mt-136 display-none">
 
                     <Picture>
                         <img src="/images/image_1.jpg" alt="Рабочий стол">
                     </Picture>
-                    <div class="border-picture">
+                    <div class="border-picture display-none">
                     </div>
                 </div>
             </div>
@@ -380,49 +394,52 @@
     </section>
     <section class="bg-color-2 mt-120">
         <div class="container">
-            <div class="flex">
-                <div class="gray-block-text max-w--490 mr-80">
-                    <p class="text-color-4 headline-2 mt-88">Всё включено!</p>
-                    <p class="text-color-1 text-md mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            <div class="flex flex-wrap">
+                <div class="gray-block-text max-w--490 mr-80 mr-0">
+                    <p class="text-color-4 headline-2 mt-88 fs-36">Всё включено!</p>
+                    <p class="text-color-1 text-md mt-16 line-height--25">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed
                         do eiusmod tempor incididunt ut
                         labore et
                         dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <button class="main-btn mt-40">
+                    <button class="main-btn mt-40 display-none">
                         <p class="text-color-3">Рассчитать стоимость</p>
                     </button>
                 </div>
-                <div class="mt-104 mb-88">
-                    <div class="bg-color-4 flex br-radius--8 mb-8 block-type-3">
+                <div class="mt-104 mb-88 mt-0 mt--24">
+                    <div class="bg-color-4 flex br-radius--8 mb-8 block-type-3 flex-wrap">
                         <div class="ml-24 mr-24 mt-16 ">
                             <img src="/images/icons/check_icon.svg" alt="">
                         </div>
                         <div>
-                            <p class="text-color-3 mr-56 mt-24 mb-24 strong text-md">Доставка</p>
+                            <p class="text-color-3 mr-56 mt-24 mb-24 strong text-md mb-0">Доставка</p>
                         </div>
                         <div>
 
-                            <p class="text-color-3 mt-16 mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p class="text-color-3 mt-16 mb-16 max-w--285 ml--60 mb--20">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt
                                 ut
                                 labore
                                 et dolore magna aliqua. </p>
                         </div>
                     </div>
-                    <div class="bg-color-4 flex br-radius--8 mb-8 block-type-3">
+                    <div class="bg-color-4 flex br-radius--8 mb-8 block-type-3 flex-wrap">
                         <div class="ml-24 mr-24 mt-16 mb-16">
                             <img src="/images/icons/check_icon.svg" alt="">
                         </div>
                         <div>
-                            <p class="text-color-3 mt-24 strong mr-32 text-md">Материалы</p>
+                            <p class="text-color-3 mt-24 strong mr-32 text-md mb-0">Материалы</p>
                         </div>
                         <div>
-                            <p class="text-color-3 mt-16 mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p class="text-color-3 mt-16 mb-16 max-w--285 ml--60 mb--20">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut
                                 labore
                                 et dolore magna aliqua. </p>
                         </div>
                     </div>
-                    <div class="bg-color-4 flex br-radius--8 mb-8 block-type-3">
+                    <div class="bg-color-4 flex br-radius--8 mb-8 block-type-3 display-none">
                         <div class="ml-24 mr-24 mt-16 mb-16">
                             <img src="/images/icons/check_icon.svg" alt="">
                         </div>
@@ -437,7 +454,7 @@
                         </div>
 
                     </div>
-                    <div class="bg-color-4 flex br-radius--8 block-type-3">
+                    <div class="bg-color-4 flex br-radius--8 block-type-3 display-none">
                         <div class="ml-24 mr-24 mt-16 mb-16">
                             <img src="/images/icons/check_icon.svg" alt="">
                         </div>
@@ -453,6 +470,11 @@
                                 et dolore magna aliqua. </p>
                         </div>
                     </div>
+                    <div class=" display-block none">
+                        <button class="main-btn mt--24">
+                            <p class="text-color-3">Рассчитать стоимость</p>
+                        </button>
+                    </div>
                 </div>
 
 
@@ -463,7 +485,7 @@
     <section>
         <div class="container">
             <div class="mt-136 mb-48 max-w--800">
-                <h2 class="mt-16">Пакеты услуг</h2>
+                <h2 class="mt-16 fs-26">Пакеты услуг</h2>
                 <p class="text-color-2 mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut
                     labore et
@@ -472,60 +494,64 @@
             <div class="flex wrap mb-136 gap-20">
                 <div class="flex bg-color-2 max-w--650 br-radius--24 block-type-2">
                     <picture>
-                        <img src="/images/image_2.jpg" alt="">
+                        <img class="max-w--150" src="/images/image_2.jpg" alt="">
                     </picture>
-                    <div class="ml-56 mr-88">
-                        <p class="text-color-4 strong text-lg mb-8">Пакет Базовый</p>
-                        <p class="text-color-2 mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <div class="ml-56 mr-88 mt--40">
+                        <p class="text-color-4 strong text-lg mb-8 fs-16">Пакет Базовый</p>
+                        <p class="text-color-2 mb-16 display-none">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do
                             eiusmod tempor incididunt.
                         </p>
                         <p class="text-color-2 strong mb-32">от 200 р.</p>
-                        <button class="main-btn">
+                        <button class="main-btn mt--10">
                             <p class="text-color-3">Заказать</p>
                         </button>
                     </div>
                 </div>
                 <div class="flex bg-color-2 max-w--650 br-radius--24 block-type-2">
                     <picture>
-                        <img src="/images/image_2.jpg" alt="">
+                        <img class="max-w--150" src="/images/image_2.jpg" alt="">
                     </picture>
                     <div class="mt-40 ml-56 mr-88">
-                        <p class="text-color-4 strong text-lg mb-8">Пакет Базовый</p>
-                        <p class="text-color-2 mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p class="text-color-4 strong text-lg mb-8 fs-16">Пакет Базовый</p>
+                        <p class="text-color-2 mb-16 display-none">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do
                             eiusmod tempor incididunt.
                         </p>
                         <p class="text-color-2 strong mb-32">от 200 р.</p>
-                        <button class="main-btn">
+                        <button class="main-btn mt--10">
                             <p class="text-color-3">Заказать</p>
                         </button>
                     </div>
                 </div>
                 <div class="flex bg-color-2 max-w--650 br-radius--24 block-type-2">
                     <picture>
-                        <img src="/images/image_2.jpg" alt="">
+                        <img class="max-w--150" src="/images/image_2.jpg" alt="">
                     </picture>
                     <div class="mt-40 ml-56 mr-88">
-                        <p class="text-color-4 strong text-lg mb-8">Пакет Базовый</p>
-                        <p class="text-color-2 mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p class="text-color-4 strong text-lg mb-8 fs-16">Пакет Базовый</p>
+                        <p class="text-color-2 mb-16 display-none">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do
                             eiusmod tempor incididunt.
                         </p>
                         <p class="text-color-2 strong mb-32">от 200 р.</p>
-                        <button class="main-btn">
+                        <button class="main-btn mt--10">
                             <p class="text-color-3">Заказать</p>
                         </button>
                     </div>
                 </div>
                 <div class="flex bg-color-2 max-w--650 br-radius--24 block-type-2">
                     <picture>
-                        <img src="/images/image_2.jpg" alt="">
+                        <img class="max-w--150" src="/images/image_2.jpg" alt="">
                     </picture>
                     <div class="mt-40 ml-56 mr-88">
-                        <p class="text-color-4 strong text-lg mb-8">Пакет Базовый</p>
-                        <p class="text-color-2 mb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p class="text-color-4 strong text-lg mb-8 fs-16">Пакет Базовый</p>
+                        <p class="text-color-2 mb-16 display-none">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do
                             eiusmod tempor incididunt.
                         </p>
                         <p class="text-color-2 strong mb-32">от 200 р.</p>
-                        <button class="main-btn">
+                        <button class="main-btn mt--10">
                             <p class="text-color-3">Заказать</p>
                         </button>
                     </div>
@@ -536,15 +562,16 @@
     <section>
         <div class="container">
             <div class="max-w--900">
-                <h2>Lorem ipsum dolor sit amet consectetur</h2>
-                <p class="text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <h2 class="fs-26">Lorem ipsum dolor sit amet consectetur</h2>
+                <p class="text-color-2 line-height--25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod
                     tempor incididunt ut
                     labore et
                     dolore magna aliqua. </p>
             </div>
-            <div class="flex justify-between mt-56 mb-136">
-                <div class="advantages_item">
-                    <img src="/images/icons/advantages_1.svg" alt="">
+            <div class="flex justify-between mt-56 mb-136 flex-wrap mt-0">
+                <div class="advantages_item mb--32">
+                    <img class="mb--9" src="/images/icons/advantages_1.svg" alt="">
                     <div class="max-w--300">
                         <p class="text-l weight-600">Приемущество 1</p>
                         <p class="text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
@@ -553,8 +580,8 @@
                             adipiscing elit.</p>
                     </div>
                 </div>
-                <div class="advantages_item">
-                    <img src="/images/icons/advantages_2.svg" alt="">
+                <div class="advantages_item mb--32">
+                    <img class="mb--16" src="/images/icons/advantages_2.svg" alt="">
                     <div class="max-w--300">
                         <p class="text-l weight-600">Приемущество 2</p>
                         <p class="text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
@@ -564,7 +591,7 @@
                     </div>
                 </div>
                 <div class="advantages_3">
-                    <img src="/images/icons/advantages_3.svg" alt="">
+                    <img class="mb--16" src="/images/icons/advantages_3.svg" alt="">
                     <div class="max-w--300">
                         <p class="text-l weight-600">Приемущество 3</p>
                         <p class="text-color-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
@@ -579,31 +606,30 @@
 
         </div>
     </section>
-    <section class="bg-color-2 relative">
-        <div class="container">
-            <div class="grn-border">
+    <section class="relative">
+        <picture>
+            <source media="(max-width: 412px)" srcset="/images/main_image_411.jpg">
+            <img class="z-index-1 absolute width-full height-100" src="/images/main_image_3.jpg" alt="">
+        </picture>
+        <div class="container p-48">
+            <div class="grn-border max-w--100 height--522">
 
-            </div>
-            <div class="flex">
+                <div class="flex">
 
-                <div class="max-w--450 mt-120 m-btm--176 m-left--200">
-                    <h2 class="text-color-4 headline-2 mb-8">Lorem ipsum</h2>
-                    <p class="mb-16 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor<br> incididunt ut
-                        labore et
-                        dolore magna</p>
-                    <p class="text-color-2 mb-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua. </p>
-                    <button class="main-btn">
-                        <p class="text-color-3">Рассчитать стоимость</p>
-                    </button>
-                </div>
-                <div class="main_picture">
-                    <picture>
-                        <img src="/images/image_3.jpg" alt="">
-                    </picture>
+                    <div class="max-w--450 mt-120 mb-88 ml-136 mt--245 max-w--315 ml--38 mr--45">
+                        <h2 class="text-color-4 headline-2 mb-8 fs-36">Lorem ipsum</h2>
+                        <p class="mb-16 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor<br> incididunt ut
+                            labore et
+                            dolore magna</p>
+                        <p class="text-color-2 mb-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et
+                            dolore magna aliqua. </p>
+                        <button class="main-btn display-none">
+                            <p class="text-color-3">Рассчитать стоимость</p>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -611,25 +637,27 @@
     <section>
         <div class="container">
             <div class="mt-136 mb-48">
-                <h2>Партнёры</h2>
+                <h2 class="fs-26">Партнёры</h2>
             </div>
             <div class="flex justify-between mb-136">
                 <div class="mt-104">
                     <a href=""><img src="/images/icons/left.svg" alt=""></a>
                 </div>
-                <div class="bg-color-2 br-radius--110">
-                    <img class="mb-72 mt-72 mr-32 ml-32" src="/images/icons/slider_img_1.svg" alt="">
+                <div class="bg-color-2 br-radius--110 max-w--135">
+                    <img class="mb-72 mb-0 mt-72 mr-32 ml-32 max-w--95 mb--50" src="/images/icons/slider_img_1.svg"
+                        alt="">
                 </div>
-                <div class="bg-color-2 br-radius--110">
-                    <img class="mb-72 mt-64 mr-40 ml-40" src="/images/icons/slider_img_2.svg" alt="">
+                <div class="bg-color-2 br-radius--110 max-w--135">
+                    <img class="mb-72 mt-64 mr-40 ml-40 max-w--81 p--19 ml-0 mr-0" src="/images/icons/slider_img_2.svg"
+                        alt="">
                 </div>
-                <div class="bg-color-2 br-radius--110">
+                <div class="bg-color-2 br-radius--110 display-none">
                     <img class="mb-56 mt-56 mr-48 ml-48" src="/images/icons/slider_img_3.svg" alt="">
                 </div>
-                <div class="bg-color-2 br-radius--110">
+                <div class="bg-color-2 br-radius--110 display-none">
                     <img class="mb-64 mt-64 mr-64 ml-64" src="/images/icons/slider_img_4.svg" alt="">
                 </div>
-                <div class="bg-color-2 br-radius--110">
+                <div class="bg-color-2 br-radius--110 display-none">
                     <img class="mb-64 mt-80 mr-40 ml-48" src="/images/icons/slider_img_5.svg" alt="">
                 </div>
                 <div class="mt-104">
@@ -642,15 +670,15 @@
 
     <section>
         <div class="container">
-            <h2 class="mb-32">Ответы на ваши вопросы</h2>
-            <div class="flex">
-                <div class="accardion">
+            <h2 class="mb-32 fs-25">Ответы на ваши вопросы</h2>
+            <div class="flex flex-wrap">
+                <div class="accardion mb--64">
                     <div class="flex mb-48">
                         <div>
                             <img src="/images/icons/minus.svg" alt="Минус">
                         </div>
                         <div class="ml-16 mt-16">
-                            <p class="strong text-md mb-8">Каковы условия оплаты за перлитовую установку?</p>
+                            <p class="strong text-md mb-8 mb--16">Каковы условия оплаты за перлитовую установку?</p>
                             <ul>
                                 <p>Как правило, платеж за перлитовую установку разделен на 3 части:</p>
                                 <li><span>Возрастает производительность производства</span> </li>
@@ -688,8 +716,8 @@
                     </div>
 
                 </div>
-                <div class="bg-color-4 br-radius--24 mb-136">
-                    <p class="strong text-lg text-color-3 mt-48 mb-16 ml-72 mr-112">Задайте ваш вопрос!</p>
+                <div class="bg-color-4 br-radius--24 mb-136 max-w--380">
+                    <p class="strong text-lg text-color-3 mt-48 mb-16 ml-72 mr-112 fs-22">Задайте ваш вопрос!</p>
                     <div class="boxes">
                         <form>
                             <p><input type="text" class="color_text" name="feedback" placeholder="" size="50" /></p>
@@ -698,7 +726,7 @@
                                     maxlength="50" /></p>
                         </form>
                         <button class="main-btn ml-72 mb-72">
-                            <p class="text-color-3 bold text-md">Получить ответ</p>
+                            <p class="text-color-3 bold text-md fs-12">Получить ответ</p>
                         </button>
                     </div>
                 </div>
@@ -708,16 +736,17 @@
     <section class="bg-color-2 pb-88">
         <div class="container">
             <div class="mt-88 flex justify-between">
-                <h2 class="mt-88">Статьи</h2>
-                <button class="main-btn mt-88 text-color-3 mr-16 mb-40">
+                <h2 class="mt-88 fs-25">Статьи</h2>
+                <button class="main-btn mt-88 text-color-3 mr-16 mb-40 display-none">
                     <p class=" text-md bold">Другие статьи</p>
                 </button>
             </div>
-            <div class="flex">
-                <div class="bg-color-1 max-w--450 br-radius--8 mr-16">
-                    <p class="text-l strong text-color-4 mb-8 mt-48 ml-48 mr-48">Lorem ipsum dolor sit amet, consectetur
+            <div class="flex flex-wrap">
+                <div class="bg-color-1 max-w--450 br-radius--8 mr-16 mb--16">
+                    <p class="text-l strong text-color-4 mb-8 mt-48 ml-48 mr-48 fs-20">Lorem ipsum dolor sit amet,
+                        consectetur
                         adipiscing elit</p>
-                    <p class="text-md ml-48 mb-24 mr-40">
+                    <p class="text-md ml-48 mb-24 mr-40 fs-15">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Lorem ipsum dolor sit amet ...
                         подробнее</p>
@@ -726,11 +755,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex">
-                    <div class="bg-color-1 max-w--450 br-radius--8 mr-16">
-                        <p class="text-l strong text-color-4 mb-8 mt-48 ml-48 mr-48">Lorem ipsum dolor sit amet,
+                <div class="flex flex-wrap">
+                    <div class="bg-color-1 max-w--450 br-radius--8 mr-16 mb--16">
+                        <p class="text-l strong text-color-4 mb-8 mt-48 ml-48 mr-48 fs-20">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit</p>
-                        <p class="text-md ml-48 mb-24 mr-40">
+                        <p class="text-md ml-48 mb-24 mr-40 fs-15">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Lorem ipsum dolor sit amet ...
                             подробнее</p>
@@ -739,11 +768,12 @@
                                         alt=""></a></p>
                         </div>
                     </div>
-                    <div class="flex">
+                    <div class="flex flex-wrap">
                         <div class="bg-color-1 max-w--450 br-radius--8 mr-16">
-                            <p class="text-l strong text-color-4 mb-8 mt-48 ml-48 mr-48">Lorem ipsum dolor sit amet,
+                            <p class="text-l strong text-color-4 mb-8 mt-48 ml-48 mr-48 fs-20">Lorem ipsum dolor sit
+                                amet,
                                 consectetur adipiscing elit</p>
-                            <p class="text-md ml-48 mb-24 mr-40">
+                            <p class="text-md ml-48 mb-24 mr-40 fs-15">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt ut
                                 labore et dolore magna aliqua. Lorem ipsum dolor sit amet ...
@@ -756,21 +786,44 @@
                     </div>
                 </div>
             </div>
+            <button class="main-btn mt--24 text-color-3 mr-16 mb-40 display-block none">
+                <p class=" text-md bold fs-12">Другие статьи</p>
+            </button>
         </div>
     </section>
     <section class="bg-color-4">
         <div class="container">
-            <div class="flex">
+            <div class="flex flex-wrap">
                 <div class="footer_main">
-                    <div class="mt-48 mb-40 mr-104">
-                        <img src="/images/logo_white.png" alt="Логотип">
+                    <div class="flex height--80">
+                        <div class="mt-48 mb-40 mr-104">
+                            <img src="/images/logo_white.png" alt="Логотип">
+                        </div>
+                        <div class="mt-16 display-block none">
+                            <div class="flex flex-wrap mt--24">
+                                <div class="bg-color-2 p-8 br-radius--110 mr-16">
+                                    <img src="/images/icons/inst_icon.svg" alt="">
+                                </div>
+                                <div class="bg-color-2 p-8 br-radius--110">
+                                    <img src="/images/icons/tube_icon.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="mt-48 display-block none mb--16">
+                        <p class="text-lg bold">Ремонт квартир под ключ</p>
+                        <p class="strong">Быстро. Качественно. Актуально. </p>
+                    </div>
+                    <div class="white_border mb-24 max-w--380 display-block none">
+
+                    </div>
+                    
                     <div class="max-w--250">
                         <p class="strong line-height">ЧУП "loremIpsum"</p>
                         <p class="line-height">официальный дистрибьютер в республике Беларусь</p>
                     </div>
-                    <div class="mt-16">
-                        <div class="flex">
+                    <div class="mt-16 display-none">
+                        <div class="flex flex-wrap">
                             <div class="bg-color-2 p-8 br-radius--110 mr-16">
                                 <img src="/images/icons/inst_icon.svg" alt="">
                             </div>
@@ -781,8 +834,8 @@
                     </div>
                 </div>
                 <div class="footer_main_2">
-                    <div class="flex justify-between mb-24">
-                        <div class="mt-48">
+                    <div class="flex justify-between flex-wrap mb-24">
+                        <div class="mt-48 display-none">
                             <p class="text-lg bold">Ремонт квартир под ключ</p>
                             <p class="strong">Быстро. Качественно. Актуально. </p>
                         </div>
@@ -793,11 +846,11 @@
                             </form>
                         </div>
                     </div>
-                    <div class="white_border mb-24">
+                    <div class="white_border mb-24 display-none">
 
                     </div>
-                    <div class="flex mt-16 justify-between">
-                        <div class="">
+                    <div class="flex mt-16 justify-between flex-wrap mb--50">
+                        <div class="display-none">
                             <p class="bold mb-16"><a class="text-color-3 line-height" href="">Главная</a></p>
                             <p class="bold mb-16"><a class="text-color-3 line-height" href="">Проекты</a></p>
                             <p class="bold mb-16"><a class="text-color-3 line-height" href="">О компании</a></p>
@@ -805,14 +858,14 @@
                             <p class="bold mb-16"><a class="text-color-3 line-height" href="">дилерам</a></p>
                             <p class="bold mb-16"><a class="text-color-3 line-height" href="">Контакты</a></p>
                         </div>
-                        <div>
+                        <div class="display-none">
                             <p class="bold mb-16"><a class="text-color-3 line-height" href="">Услуги</a></p>
                             <p class="mb-16"><a class="text-color-7 line-height" href="">мебель</a></p>
                             <p class="mb-16"><a class="text-color-7 line-height" href="">Теплицы из алюминия</a></p>
                             <p class="mb-16"><a class="text-color-7 line-height" href="">тамбур</a></p>
                             <p class="mb-16"><a class="text-color-7 line-height" href="">Остекление</a></p>
                         </div>
-                        <div class="mt-32">
+                        <div class="mt-32 display-none">
                             <p class="mb-16"><a class="text-color-7 line-height" href="">Отделка болконов</a></p>
                             <p class="mb-16"><a class="text-color-7 line-height" href="">Раздвижные двери</a></p>
                             <p class="mb-16"><a class="text-color-7 line-height" href="">Фасадное остекление</a></p>
@@ -836,6 +889,28 @@
                                 <p class="strong text-color-3 line-height">Режим работы </p>
                                 <p class="text-color-3 line-height">Пн.-Пт.: 9:00-18:00</p>
                             </div>
+                        </div>
+
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="display-block none">
+                            <p class="bold mb-16"><a class="text-color-3 line-height" href="">Главная</a></p>
+                            <p class="bold mb-16"><a class="text-color-3 line-height" href="">Проекты</a></p>
+                            <p class="bold mb-16"><a class="text-color-3 line-height" href="">О компании</a></p>
+                            <p class="bold mb-16"><a class="text-color-3 line-height" href="">строителям</a></p>
+                            <p class="bold mb-16"><a class="text-color-3 line-height" href="">дилерам</a></p>
+                            <p class="bold mb-16"><a class="text-color-3 line-height" href="">Контакты</a></p>
+                        </div>
+                        <div class="display-block none">
+                            <p class="bold mb-16"><a class="text-color-3 line-height" href="">Услуги</a></p>
+                            <p class="mb-16"><a class="text-color-7 line-height" href="">мебель</a></p>
+                            <p class="mb-16"><a class="text-color-7 line-height" href="">Теплицы из алюминия</a></p>
+                            <p class="mb-16"><a class="text-color-7 line-height" href="">тамбур</a></p>
+                            <p class="mb-16"><a class="text-color-7 line-height" href="">Остекление</a></p>
+                            <p class="mb-16"><a class="text-color-7 line-height" href="">Отделка болконов</a></p>
+                            <p class="mb-16"><a class="text-color-7 line-height" href="">Раздвижные двери</a></p>
+                            <p class="mb-16"><a class="text-color-7 line-height" href="">Фасадное остекление</a></p>
+                            <p class="mb-16"><a class="text-color-7 line-height" href="">Окна</a></p>
                         </div>
                     </div>
 

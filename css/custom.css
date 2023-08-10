@@ -81,7 +81,6 @@
     height: 491px;
     border-radius: 31px;
     border: 5px solid #589D6F;
-    position: absolute;
     z-index: 2;
     right: 342px;
     top: 47px;
@@ -199,4 +198,7 @@ a{
 }
 .box-shadow-1{
     box-shadow: 3px 25px 20px 0px rgba(34, 60, 80, 0.2);
+}
+.z-index-1{
+    z-index: -1;
 }
