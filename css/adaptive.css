@@ -1,3 +1,139 @@
+@media (max-width: 722px){
+
+.display-1{
+    display: none;
+}
+.flex--wrap{
+    flex-wrap: wrap;
+}
+.display--flex{
+    display: flex;
+}
+.height--500{
+    height: 500px;
+}
+.font-s--20{
+    font-size: 20px;
+}
+.font-s--36{
+    font-size: 36px;
+}
+.font-s--50{
+    font-size: 50px;
+}
+.font-s--29{
+    font-size: 29px;
+}
+.font-s--23{
+    font-size: 23px;
+}
+.font-s--15{
+    font-size: 15px;
+}
+.margin-t--150{
+    margin-top: 150px;
+
+}
+.margin-t--40{
+    margin-top: 40px;
+}
+.margin-t--30{
+    margin-top: 30px;
+}
+.margin-t--10{
+    margin-top: 10px;
+}
+.margin-t--70{
+    margin-top: 70px;
+}
+.margin-r--60{
+    margin-right: 60px;
+}
+.margin-l--75{
+    margin-left: 75px;
+}
+.margin-l--40{
+    margin-left: 40px;
+}
+.margin-l--70{
+    margin-left: 70px;
+}
+.margin-l--20{
+    margin-left: 20px;
+}
+.margin-l--25{
+    margin-left: 25px;
+}
+.width-max--500{
+    max-width: 500px;
+}
+.margin-l--75{
+    margin-left: 75px;
+}
+.margin-l--105{
+    margin-left: 105px;
+}
+.btn_green_block {
+    max-width: 280px;
+    left: 375px;
+    margin-right: 0;
+}
+.grn-border{
+    width: 100%;
+    height: 440px;
+}
+.max--w--270{
+    max-width: 270px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 412px){
 
 .display-none{
